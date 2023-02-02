@@ -1,0 +1,49 @@
+.home{ 
+    .slide-item{
+       padding: 160px 0 155px;
+       height: 525px;
+       &__first{
+           background: url('../Images/home/bg\ 1.jpg') center/cover;
+        }
+        &__second{
+          background: url('../Images/home/bg\ 2.jpg') center/cover;
+       }
+       &__third{
+          background: url('../Images/home/bg.3jpg.jpg') center/cover;
+       } 
+       &__title{
+           font-family: 'Montserrat';
+            font-style: normal;
+            font-weight:500;
+            font-size: 13px;
+           line-height: 13px;
+           display: flex;
+           align-items: center;
+           color: #2C2D2E;
+            }  
+            &__subtitle{
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 600;
+               font-size: 32px;
+               line-height: 40px;
+               display: flex;
+               align-items: center;
+               margin-bottom: 17px;
+               color: #2C2D2E;
+
+            }      
+            &__description{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                color: #2C2D2E;
+                margin-bottom: 17px;
+                max-width: 580px;
+            }   
+
+    }
+}
+   
